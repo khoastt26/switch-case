@@ -6,14 +6,14 @@ function TBC() {
     document.getElementById('TBC').innerHTML = 'trung bình cộng là: '+ TBC;
     let message;
 
-    let X=TBC;
-    if(X >= 0 && X <=3.5) {
+    
+    if(TBC >= 0 && TBC <=3.5) {
         message = 'hạng yếu';
-    } else if(X >3.5 && X <=5) {
+    } else if(TBC >3.5 && TBC <=5) {
         message= 'hạng TB';
-    }else if(X >5 && X <8) {
+    }else if(TBC >5 && TBC <8) {
         message= 'hạng Khá';
-    }else if (X >= 8){
+    }else if (TBC >= 8){
         message= 'hạng Giỏi';
     }
    
